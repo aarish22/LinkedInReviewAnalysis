@@ -28,7 +28,7 @@ plt.xlabel('Rating')
 plt.ylabel('Count')
 plt.show()
 ```
-
+![Distribution of Ratings](https://github.com/aarish22/LinkedInReviewAnalysis/blob/main/Plots/Dostrobutionofratings.png)
 ### 3. Review Length Analysis
 
 We calculate the length of each review to analyze the distribution of review lengths. This helps in understanding the level of detail provided by users in their reviews.
@@ -43,6 +43,7 @@ plt.xlabel('Length of Review')
 plt.ylabel('Count')
 plt.show()
 ```
+![Distribution of Review Length](https://github.com/aarish22/LinkedInReviewAnalysis/blob/main/Plots/Distofreviewlengths.png)
 
 ### 4. Sentiment Analysis Using TextBlob
 
@@ -81,6 +82,7 @@ plt.xlabel('Sentiment')
 plt.ylabel('Count')
 plt.show()
 ```
+![Distribution of Sentiments](https://github.com/aarish22/LinkedInReviewAnalysis/blob/main/Plots/distofsentiments.png)
 
 ### 6. Sentiment Distribution Across Ratings
 
@@ -95,6 +97,7 @@ plt.ylabel('Count')
 plt.legend(title='Sentiment')
 plt.show()
 ```
+![Sentiment Distribution Across Ratings](https://github.com/aarish22/LinkedInReviewAnalysis/blob/main/Plots/sentimentdistributionamonganalysis.png)
 
 ### 7. Word Cloud Generation
 
@@ -115,6 +118,7 @@ def generate_word_cloud(sentiment):
 for sentiment in ['Positive', 'Negative', 'Neutral']:
     generate_word_cloud(sentiment)
 ```
+![Word Cloud](https://github.com/aarish22/LinkedInReviewAnalysis/blob/main/Plots/frequentwords.png)
 
 ## Conclusion
 
